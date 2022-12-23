@@ -24,6 +24,7 @@ public class Problema02 {
         int acumulacion = 0;
 
         for (int i = 0; i < vendedores.length; i++) {
+            System.out.printf("Ingrese la venta de: %s\n" , vendedores[i]);
             for (int j = 0; j < ventas[i].length; j++) {
                 System.out.println("Ingrese la venta total que hizo en el día: ");
                 ventas[i][j] = entrada.nextInt();
